@@ -1,0 +1,123 @@
+[
+    {
+      "id": 1,
+      "name": "Smart Glasses",
+      "price": 120,
+      "image": "https://plus.unsplash.com/premium_photo-1733828953370-2097e321e195?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mzd8fHNtYXJ0JTIwZ2xhc3Nlc3xlbnwwfHwwfHx8MA%3D%3D",
+      "category":"Accessories",
+      "description": "High-quality smart glasses for daily use."
+    },
+    {
+      "id": 2,
+      "name": "Wireless Headphones",
+      "price": 80,
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2lyZWxlc3MlMjBoZWFkcGhvbmVzfGVufDB8fDB8fHww",
+      "category":"Electronics",
+      "description": "Comfortable wireless headphones with long battery life."
+    },
+    {
+      "id": 3,
+      "name": "Smart Watch",
+      "price": 150,
+      "image": "https://images.unsplash.com/photo-1696688713460-de12ac76ebc6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c21hcnQlMjB3YXRjaGVzfGVufDB8fDB8fHww",
+      "category":"Accessories",
+      "description": "Smart watch to track fitness and notifications."
+    },
+    {
+      "id": 4,
+      "name": "Casual Sneakers",
+      "price": 79,
+      "image": "https://images.unsplash.com/photo-1465453869711-7e174808ace9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHNuZWFrZXJzfGVufDB8fDB8fHww",
+      "category":"Fashion",
+      "description": "Comfortable everyday sneakers."
+    },
+    {
+      "id": 5,
+      "name": "Hand bag",
+      "price": 59.99,
+      "image": "https://images.unsplash.com/photo-1605733513597-a8f8341084e6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aGFuZCUyMGJhZ3xlbnwwfHwwfHx8MA%3D%3D",
+      "category":"Fashion",
+      "description": "Comfortable everyday hand bag."
+    },
+    {
+      "id": 6,
+      "name": "microwave oven",
+      "price": 380,
+      "image": "https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bWljcm93YXZlJTIwb3ZlbnxlbnwwfHwwfHx8MA%3D%3D",
+      "category":"Electronics",
+      "description": "Brand new microwave oven ."
+    },
+    {
+      "id": 7,
+      "name": "Washing machine",
+      "price": 980,
+      "image": "https://plus.unsplash.com/premium_photo-1663036970563-99624abc950e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTV8fGFwcGxpYW5jZXxlbnwwfHwwfHx8MA%3D%3D",
+      "category":"Electronics",
+      "description": "Brand new washing machine ."
+    },
+    {
+      "id": 8,
+      "name": "Robot vacuum",
+      "price": 980,
+      "image": "https://images.unsplash.com/photo-1765824142352-7bd73ea117f2?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "category":"Electronics",
+      "description": "Brand new Robot vacuum."
+    },
+    {
+      "id": 9,
+      "name": "Iphone",
+      "price": 480,
+      "image": "https://images.unsplash.com/photo-1573148195900-7845dcb9b127?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGlwaG9uZXxlbnwwfHwwfHx8MA%3D%3D",
+      "category":"Electronics",
+      "description": "Brand new Iphone."
+    },
+    {
+      "id": 10,
+      "name": "Macbook",
+      "price": 1480,
+      "image": "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bWFjYm9va3xlbnwwfHwwfHx8MA%3D%3D",
+      "category":"Electronics",
+      "description": "Brand new Macbook."
+    },
+    {
+      "id": 11,
+      "name": "keyboard",
+      "price": 80,
+      "image": "https://images.unsplash.com/photo-1585314614250-d213876625e1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZWxlY3Ryb25pYyUyMHByb2R1Y3R8ZW58MHx8MHx8fDA%3D",
+      "category":"Electronics",
+      "description": "Brand new keyboard."
+    },
+    {
+      "id": 12,
+      "name": "camera",
+      "price": 1080,
+      "image": "https://images.unsplash.com/photo-1711288591421-6d09cc3c2667?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nzd8fGVsZWN0cm9uaWMlMjBwcm9kdWN0fGVufDB8fDB8fHww",
+      "category":"Accessories",
+      "description": "Brand new camera."
+    },
+    {
+      "id": 13,
+      "name": "Football",
+      "price": 20,
+      "image": "https://plus.unsplash.com/premium_photo-1658506638118-524a66dc5cee?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTd8fGZvb3RiYWxsfGVufDB8fDB8fHww",
+      "category":"Sports",
+      "description": "Brand new football."
+    },
+    {
+      "id": 14,
+      "name": "basketball",
+      "price": 10,
+      "image": "https://images.unsplash.com/photo-1518989229647-6377f907a0b2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fGJhc2tldGJhbGx8ZW58MHx8MHx8fDA%3D",
+      "category":"Sports",
+      "description": "Brand new basketball."
+    },
+    {
+      "id": 15,
+      "name": "baseball",
+      "price": 10,
+      "image": "https://images.unsplash.com/photo-1554591203-d6433caa8495?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YmFzZWJhbGx8ZW58MHx8MHx8fDA%3D",
+      "category":"Sports",
+      "description": "Brand new baseball."
+    }
+  ]
+  

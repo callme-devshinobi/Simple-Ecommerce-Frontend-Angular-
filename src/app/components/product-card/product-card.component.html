@@ -1,0 +1,6 @@
+<div style="border:1px solid #ddd; padding:1rem; border-radius:5px; text-align:center; margin:0.5rem;">
+    <img [src]="product.image" alt="{{product.name}}" style="width:150px; height:150px;">
+    <h3>{{ product.name }}</h3>
+    <p>${{ product.price }}</p>
+    <a [routerLink]="['/product', product.id]" style="text-decoration:none; color:white; background:#007BFF; padding:0.5rem 1rem; border-radius:5px;">View</a>
+  </div>

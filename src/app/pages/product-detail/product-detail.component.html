@@ -1,0 +1,61 @@
+<div *ngIf="product" class="product-page">
+
+  <!-- Product Card -->
+  <div class="product-card">
+
+    <!-- LEFT: Image -->
+    <div class="product-image">
+      <img [src]="product.image" alt="{{ product.name }}">
+    </div>
+
+    <!-- RIGHT: Info -->
+    <div class="product-info">
+
+      <h2>{{ product.name }}</h2>
+
+      <p class="price">${{ product.price }}</p>
+
+      <!-- Fake rating (UI only) -->
+      <div class="rating">
+        ⭐⭐⭐⭐⭐ <span>(120 reviews)</span>
+      </div>
+
+      <p class="description">{{ product.description }}</p>
+
+      <!-- Color Selector -->
+      <div class="option-group">
+        <p>Select Color:</p>
+        <div class="color-options">
+          <span class="color red"></span>
+          <span class="color black"></span>
+          <span class="color white"></span>
+        </div>
+      </div>
+
+      <!-- Size Selector -->
+      <div class="option-group">
+        <p>Select Size:</p>
+        <div class="size-options">
+          <button>S</button>
+          <button>M</button>
+          <button>L</button>
+        </div>
+      </div>
+
+      <!-- Quantity -->
+      <div class="quantity">
+        <p>Quantity:</p>
+        <button>-</button>
+        <span>1</span>
+        <button>+</button>
+      </div>
+
+      <!-- Add to Cart -->
+      <button class="add-cart-btn" (click)="addToCart()">
+        Add to Cart
+      </button>
+
+    </div>
+  </div>
+
+</div>

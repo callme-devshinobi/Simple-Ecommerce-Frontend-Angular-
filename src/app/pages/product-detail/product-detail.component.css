@@ -1,0 +1,123 @@
+.product-page {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    background: #f3f4f6;
+  }
+  
+  .product-card {
+    display: flex;
+    background: white;
+    border-radius: 12px;
+    padding: 2rem;
+    max-width: 900px;
+    width: 100%;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+  }
+  
+  /* Image */
+  .product-image img {
+    width: 300px;
+    border-radius: 10px;
+  }
+  
+  /* Info */
+  .product-info {
+    margin-left: 2rem;
+    flex: 1;
+  }
+  
+  .product-info h2 {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+  }
+  
+  .price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #111827;
+  }
+  
+  .rating {
+    color: #f59e0b;
+    margin-bottom: 10px;
+  }
+  
+  .rating span {
+    color: #6b7280;
+    font-size: 0.9rem;
+  }
+  
+  /* Description */
+  .description {
+    color: #4b5563;
+    margin-bottom: 15px;
+  }
+  
+  /* Options */
+  .option-group {
+    margin-bottom: 12px;
+  }
+  
+  .color-options {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .color {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .red { background: red; }
+  .black { background: black; }
+  .white { background: white; }
+  
+  /* Sizes */
+  .size-options button {
+    padding: 6px 12px;
+    border: 1px solid #d1d5db;
+    background: white;
+    cursor: pointer;
+    margin-right: 5px;
+    border-radius: 5px;
+  }
+  
+  .size-options button:hover {
+    background: #111827;
+    color: white;
+  }
+  
+  /* Quantity */
+  .quantity {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 15px 0;
+  }
+  
+  .quantity button {
+    padding: 5px 10px;
+    border: 1px solid #d1d5db;
+    background: white;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  /* Add to Cart */
+  .add-cart-btn {
+    background: #facc15;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .add-cart-btn:hover {
+    background: #eab308;
+  }

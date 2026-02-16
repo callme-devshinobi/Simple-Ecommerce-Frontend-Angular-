@@ -1,0 +1,104 @@
+.nav {
+  background: white;
+  padding: 10px 8%;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+/* Logo */
+.logo a {
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #111827;
+}
+
+/* Search Bar */
+.search-box {
+  flex: 1;
+  display: flex;
+  max-width: 500px;
+}
+
+.search-box input {
+  flex: 1;
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px 0 0 6px;
+  outline: none;
+  font-size: 14px;
+}
+
+.search-box button {
+  background: #ff6a00;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 0 6px 6px 0;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.search-box button:hover {
+  background: #ff4500;
+}
+
+/* Nav Links */
+.nav-links a {
+  margin-left: 20px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #374151;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  color: #ff6a00;
+}
+
+/* Cart Highlight */
+.cart-link {
+  font-weight: bold;
+  color: #111827;
+}
+.cart-icon {
+
+  position: relative;
+
+  font-size: 22px;
+
+  cursor: pointer;
+
+}
+
+
+
+.cart-badge {
+
+  position: absolute;
+
+  top: 18px;
+
+  right: 92px;
+
+  background: red;
+
+  color: white;
+
+  font-size: 12px;
+
+  padding: 2px 6px;
+
+  border-radius: 50%;
+
+  font-weight: bold;
+
+}
