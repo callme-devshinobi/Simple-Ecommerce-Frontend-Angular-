@@ -1,7 +1,4 @@
-# Simple-Ecommerce-Frontend-Angular-
-Here is a complete, professional `README.md` for your repository:
 
----
 
 # 🛒 Simple Ecommerce Frontend (Angular)
 
@@ -65,7 +62,7 @@ src/
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/callme-devshinobi/simple-ecommerce-frontend-angular.git
+git clone https://github.com/callme-devshinobi/Simple-Ecommerce-Frontend-Angular-.git
 cd simple-ecommerce-frontend
 ```
 
