@@ -10,6 +10,7 @@ import { CartComponent } from './pages/cart/cart.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { ProductCardComponent } from './components/product-card/product-card.component';
 import { CartItemComponent } from './components/cart-item/cart-item.component';
+import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { CartItemComponent } from './components/cart-item/cart-item.component';
     HttpClientModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA]   // 👈 ADD THIS
 })
 export class AppModule { }

@@ -121,3 +121,10 @@
   .add-cart-btn:hover {
     background: #eab308;
   }
+  @media (max-width: 768px) {
+    .product-card{
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 2rem;
+    }
+  }

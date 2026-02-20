@@ -153,4 +153,18 @@
     50% { transform: translateY(-10px); }
     100% { transform: translateY(0); }
   }
+
+  @media (max-width: 768px) {
+
+    .hero-image img {
+    display: none;
+  }
+  .categories{
+    display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+
+  gap: 25px;
+  }
   
+  }
